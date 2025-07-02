@@ -1,0 +1,409 @@
+.body{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    
+}
+.intro-container{
+    display: flex;
+
+}
+.big-button {
+  padding: 16px 32px;       /* More space inside */
+  font-size: 18px;          /* Bigger text */
+  width: 200px;             /* Optional: fixed width */
+  height: 60px;             /* Optional: fixed height */
+}
+
+not-found-image{
+    width: 100%;
+    height: 100%;
+    
+}
+.not-found{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 22vw;
+    top: 30vh;
+    display: flex;
+    justify-content: end;
+    height: 93vh;
+    width: 99vh;
+    background-color: #000000;
+}
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+.profile-show-container{
+    flex : 1
+}
+.content-container{
+    margin-left: -18vw;
+    margin-top: 3vh;
+    flex : 2;
+}
+.hello-there{
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 3vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-bottom: -4vh;
+    
+}
+.im-joel{
+    color: #FFFFFF;
+    font-size: 7vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+}
+.profile-pic{
+    border-radius: 50px;
+    width: 20vh;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.profile-pic-desc{
+    color: #FFFFFF;
+    font-size: 1.4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-bottom: -2vh;
+}
+.profile-pic-desc-l-1{
+    color: #FFFFFF;
+    font-size: 1.4vh;
+    text-align: center;
+    margin-bottom: -1.9vh;
+    font-family: "Space Grotesk";
+}
+.profile-pic-desc-l-last{
+    color: #f70707;
+    font-size: 1.4vh;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: -1.9vh;
+    font-family: "Space Grotesk";
+}
+
+@media (max-width: 767px) {
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-container{
+        margin-left: 0;
+        margin-top: 0;
+        flex: 1;
+    }
+    .body{
+        display: block;
+    }
+    .profile-pic-desc{
+        font-size: 1.4vh;
+        margin-bottom: -1.5vh;
+    }
+    .profile-pic-desc-l-1{
+        font-size: 1.4vh;
+        margin-bottom: -1.5vh;
+    } 
+    .profile-pic-desc-l-last{
+            font-size: 1.4vh;
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+}
+
+.decription{
+    color: #FFFFFF;
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 30px;
+    margin-bottom: -1.9vh;
+    margin-left: 2.7vw;
+    align-self: top;
+    text-align: start;
+}
+.decription-4{
+    color: #FFFFFF;
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-left: 2.7vw;
+    align-self: top;
+    text-align: start;
+}
+.decription-1{
+    color: #FFFFFF;
+    font-size: 2vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 30px;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+}
+
+.media-btn{
+    height: 4vh;
+    width: 4vw;
+    border-radius: 10px;
+    background-color: #f70707;
+    font-family: "Space Grotesk";
+
+
+}
+
+.connect-w-me {
+  color: #58f795f1;
+  font-size:6vh;
+  text-align: center;
+  font-family: "Space Grotesk";
+}
+
+.hackatime-stats {
+  height: 34vh;
+  float: left;
+  
+}
+
+.button-links-connect-container{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.connect-with-me-btn-insta{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(255, 0, 191, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+}
+.connect-with-me-btn-insta-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-family: "Space Grotesk";
+
+}
+
+.connect-with-me-btn-insta:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.connect-with-me-btn-github:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.connect-with-me-btn-linkdin:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.connect-with-me-btn-mail:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.connect-with-me-btn-insta-svg{
+    background-color:rgba(255, 0, 191, 0.932);
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+
+    border-radius: 20px;
+    width: 12vw;
+}
+
+.connect-with-me-btn-linkdin-svg{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+}
+
+.connect-with-me-btn-linkdin{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0, 64, 255, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+    
+}
+
+.connect-with-me-btn-github{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(183, 191, 223, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #e8dfdf;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+}
+.connect-with-me-btn-mail{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(87, 170, 166, 0.932);
+    border: none;
+    font-family: "Space Grotesk";
+    font-size: 3vh;
+    color: #e8dfdf;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    width:max-content;
+    margin-left: 2vw;
+}
+.my-exp{
+    display: flex;
+    flex-direction: column;
+    
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+    
+  .hello-there{
+    text-align: left;
+    margin-left: 3.5vw;
+  }
+  .im-joel{
+    text-align: left;
+    margin-left: 3.5vw;
+  }
+  .footer{
+  background-color: #222;
+  color: #eee;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-text{
+
+}
+
+  .profile-pic{
+    margin-left: 2.7vw ;
+    width: 30vh;
+    height: 40vh;
+        margin-bottom: 4vh;
+
+  }
+  .profile-pic-desc{
+        text-align: left;
+            font-size: 2vh;
+
+    margin-left: 2.7vw;
+  }
+  .profile-pic-desc-l-1{  
+        text-align: left;
+                    font-size: 2vh;
+
+  margin-left: 2.7vw;
+}
+  .profile-pic-desc-l-last{
+        text-align: left;
+                    font-size: 2vh;
+
+    margin-left: 11vw;
+}
+.decription{
+    text-align: left;
+    font-size: 4vh;
+    margin-left: 2.7vw;
+  }
+  .decription-1{
+    text-align: left;
+    font-size: 4vh;
+  }
+  .decription-4{
+    text-align: left;
+    font-size: 4vh;
+    margin-left: 2.7vw;
+  }
+
+}
+@media (min-width: 1500px)  {
+    .content-container{
+        margin-left: -8vw;
+        
+    }
+    
+
+}
+
+@media (max-width: 480px) {
+    .not-found{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+  .button-links-connect-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .connect-with-me-btn-insta {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+    .connect-with-me-btn-linkdin {
+        width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    }
+    .connect-with-me-btn-github {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: -10px;
+}
+.connect-with-me-btn-mail {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+  .hackatime-stats {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    
+  }
+  
+}
