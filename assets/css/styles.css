@@ -59,6 +59,77 @@ not-found-image{
     margin-bottom: -4vh;
     
 }
+.read-a-little{
+   margin-top: 0px;
+    color: #FFFFFF;
+    font-size: 3vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-bottom: -4vh;
+}
+.journey-desc{
+     color: #FFFFFF;
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 60px;
+    margin-bottom: 1.5vh;
+    margin-left: 2.7vw;
+    align-self: top;
+    text-align: start;
+}
+.journey-desc-2{
+     color: #FFFFFF;    
+    
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 10px;
+    margin-left: 10vh;
+    margin-bottom: 2vh;
+    align-self: top;
+    text-align: start;
+
+}
+.journey-desc-3{
+     color: #FFFFFF;    
+    
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 10vh;
+    margin-bottom: -1.4vh;
+    align-self: top;
+    text-align: start;
+
+}
+.journey-desc-3{
+     color: #ff0202;    
+    
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 10vh;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
+}
+.sign-off{
+     color: #0004ff;    
+    
+    font-size: 6vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 80vw;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
+}
 .im-joel{
     color: #FFFFFF;
     font-size: 7vh;
@@ -369,30 +440,76 @@ not-found-image{
 }
 
 @media (max-width: 480px) {
-    .not-found{
+    .journey-desc{
+     color: #f10c0c;
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 60px;
+    margin-left: 8px;
+    margin-bottom: 1.5vh;
+    align-self: top;
+    text-align: start;
+}
+.journey-desc-2{
+    color: #FFFFFF;    
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 2vh;
+    align-self: top;
+    text-align: start;
+
+}
+
+.journey-desc-3{
+    color: #3eee09;    
+    font-size: 4vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+
+}
+.sign-off{
+    color: #0004ff;    
+    font-size: 7vh;
+    text-align: center;
+    font-family: "Space Grotesk";
+    margin-top: 40px;
+    margin-left: 10vw;
+    margin-bottom: -1.9vh;
+    align-self: top;
+    text-align: start;
+}
+.not-found{
     position: relative;
     display: flex;
     flex-direction: column;
     
 }
-  .button-links-connect-container {
+.button-links-connect-container {
     flex-direction: column;
     align-items: center;
-  }
-  .connect-with-me-btn-insta {
+}
+.connect-with-me-btn-insta {
     width: 100%;
     margin-bottom: 10px;
     margin-left: -10px;
-  }
-    .connect-with-me-btn-linkdin {
-        width: 100%;
+}
+.connect-with-me-btn-linkdin {
+    width: 100%;
     margin-bottom: 10px;
     margin-left: -10px;
-    }
-    .connect-with-me-btn-github {
-        width: 100%;
-        margin-bottom: 10px;
-        margin-left: -10px;
+}
+.connect-with-me-btn-github {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px;
 }
 .connect-with-me-btn-mail {
     width: 100%;
@@ -407,3 +524,4 @@ not-found-image{
   }
   
 }
+
